@@ -1,0 +1,166 @@
+/*Contraste*/
+
+.acContraste .meio {
+    color: rgb(90, 90, 90);
+}
+
+.acContraste body,
+.acContraste div,
+.acContraste footer {
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+
+.acContraste body img,
+.acContraste a,
+.acContraste a:hover, 
+.acContraste a:focus,
+.acContraste .rowServicosOnline, 
+.acContraste .span9 #content p, 
+.acContraste .span9 #content ul {
+    color: #000;
+}
+
+.acContraste .barra-acessibilidade a,
+.acContraste .slide a,
+.acContraste .iconesTop a,
+.acContraste #content p,
+.acContraste p.mais a,
+.acContraste .noticias span.categ,
+.acContraste .noticias li a.texto,
+.acContraste footer .links a {
+    color: #fff;
+}
+
+.acContraste .ico-libras {
+    background: url(../img/icon_libras_contraste.png) no-repeat;
+}
+
+.acContraste .ico-acessibilidade {
+    font-size: 0px;
+    background: url(../img/sprite_contraste.png) no-repeat;
+}
+
+.acContraste .ico-acessibilidade.ico-contraste{
+    padding: 16px 8px 9px 8px;
+    background-position: -465px -3px;
+}
+
+.acContraste .ico-acessibilidade.ico-human{
+    padding: 16px 8px 9px 8px;
+    background-position: -495px -3px;
+}
+
+.acContraste #logo {
+    background: url(../imagens/logo_c.png) no-repeat;
+}
+
+.acContraste body.gray,
+.acContraste footer,
+.acContraste div#nav_main ul li a:hover,
+.acContraste div#nav_main ul li a.active, 
+.acContraste .box,
+.acContraste .barra-acessibilidade:hover{
+    background-color: #000 !important;
+}
+
+.acContraste #nav_main,
+.acContraste .barra-acessibilidade {
+    background: #333;
+}
+
+.acContraste #servicosOnline_rotativos_menu_horizontal,
+.acContraste #servicosOnline_rotativos,
+.acContraste #servicosOnline_slick,
+.acContraste #circulos_rotativos {
+    background: #ffffff;
+}
+
+.acContraste .introjs-tooltip a.introjs-nextbutton,
+.acContraste .btn-link{
+    background: #000;
+}
+
+.acContraste .servico_titulo, 
+.acContraste #circulos_rotativos .servico_titulo,
+.acContraste .box_servico p span{
+    color: #000;
+}
+
+.acContraste h1.tit {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.acContraste .box_vejamais {
+    background: grey;
+}
+
+.acContraste .introjs-tooltip h3, 
+.acContraste .well{
+    color: #000;
+}
+
+.acContraste .introjs-tooltip a.introjs-skipbutton, 
+.acContraste .icone_alerta {
+    background: #ccc;
+}
+
+.acContraste .btn, 
+.acContraste .btn-primary {
+    background: #808080;
+    color: #ffffff;
+    border-color: #777777;
+}
+
+.acContraste .btn:hover, .acContraste .btn-primary:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.acContraste .box-faq,
+.acContraste .box_obs {
+    color: #000;
+    background: #ccc6;
+}
+
+.acContraste .opDestaque a, 
+.acContraste .data_hora { 
+    background: #9e9e9e;
+}
+
+.acContraste .opDestaque a:hover {
+    background: #75757596;
+}
+
+.acContraste .tit-ficha{
+    color: #616161;
+}
+
+.acContraste .text-info {
+    color: #ccc !important;
+}
+
+.acContraste .btnInput {
+    font-size: 16px;
+    background-color: rgb(0, 4, 4);
+}
+
+.acContraste .foto {
+    width: 1024px;
+    height: 1200px;
+    background-image: url(../img/RODRIGOLIRAB.jpeg);
+}
+
+.acContraste .foto a {
+    color: black;
+    background-color: #fff;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: #75757596;
+    border: 2px solid;
+}

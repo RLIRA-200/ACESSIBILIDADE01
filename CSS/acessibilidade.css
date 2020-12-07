@@ -1,0 +1,122 @@
+body,
+div,
+footer {
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+    color: black;
+    height: 20px;
+}
+
+.meio {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    
+    bottom:0;
+    width:99%;
+    text-align: center;
+    background-color: rgba(75, 72, 72, 0.616);
+    color: white;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.barra-topo {
+    background: url(../img/header1.png) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.barra-acessibilidade {
+    height: 30px;
+    line-height: 22px;
+    background-color: rgb(221,221,221);
+    z-index: 4;
+    margin-top: -10px;
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.20);
+    vertical-align: middle;
+}
+
+.barra-acessibilidade ul {
+    padding: 0;
+    margin: 2px 0 0 0;
+    text-align: center;
+}
+
+.zoom_mais, 
+.zoom_normal, 
+.zoom_menos {
+    margin-top: 2px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.barra-acessibilidade ul li {
+    display: inline-block;
+    border-left: 1px solid rgba(255,255,255,0.4);
+    padding: 0 10px;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.barra-acessibilidade-esq {
+    float: left;
+    text-align: left;
+}    
+
+.barra-acessibilidade-dir {
+    float: right;
+    text-align: right;
+}
+
+.ico-acessibilidade {
+   font-size: 0px;
+   background: url(../img/sprite.png) no-repeat;
+}
+
+.ico-acessibilidade.ico-contraste {
+   padding: 16px 8px 9px 8px;
+   background-position: -465px -3px;
+}
+
+.ico-acessibilidade.ico-human {
+   padding: 16px 8px 9px 8px;
+   background-position: -495px -3px;
+}
+
+.ico-libras {
+   font-size: 0px;
+   background: url(../img/icon_libras.png) no-repeat;
+   padding: 18px 9px 32px 40px;
+}
+
+.btnInput {
+    font-size: 16px;
+    background-color: rgb(250, 4, 4);
+}
+
+.foto {
+    width: 1024px;
+    height: 1200px;
+    background-image: url(../img/RODRIGOLIRA.jpeg);
+}
+.foto1{
+    width: 60%;
+    height: 60%;
+}
+
+.foto a {
+    color: white;
+    background-color: #000;
+    align-content: center;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: rgb(250,4,4);
+    border: 2px solid;
+}
